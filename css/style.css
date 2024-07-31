@@ -1,0 +1,33 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:linear-gradient(#ddcece);
+}
+header{
+    background: #333;
+    text-align: center;
+    color: white;
+    padding: 10px 0px;
+}
+.container{
+    display: flex;
+    margin: 20px;
+}
+main{
+    flex: 3; 
+    margin-right: 20px;
+    background: rgb(236, 234, 234);
+    padding: 20px;
+}
+aside{
+    flex: 1;
+    background-color: #7fb3d5;
+
+}
+footer{
+    background: #333;
+    text-align: center;
+    color: white;
+    padding:10px ;
+}
